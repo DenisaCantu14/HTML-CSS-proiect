@@ -1,0 +1,80 @@
+div.titlu>p
+{
+    font-family: cursive;
+    margin:10px;
+    padding:10px;
+    font-size: 30px;
+
+
+}
+img{
+     width:170px;
+     height:150px;
+     padding:10px;
+ }
+ .bigger
+ {
+   width:200px;
+ }
+ .rating{
+    text-align: center;
+    animation-name: star;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes star {
+     0% {
+      transform: scale(0.1);
+      
+    }
+    60% {
+      transform: scale(1);
+      
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  
+  }
+
+h2
+ {text-align: center;
+    height:40px;
+    background-color:  rgb(255, 230, 230);
+    padding:5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+ h6
+ {
+   margin-left: 20px;;
+ }
+ @media only screen and (max-width: 500px)
+ {
+  .paragraf
+  { width: 260px;
+    text-indent:20px;
+    margin:auto;
+  }
+  .titlu>p
+  {
+    text-align: center;
+  }
+ }
+@media only screen and (min-width: 500px) and (max-width:767px)
+{
+  p
+  { width: 450px;
+    text-indent:30px;}
+}
+@media only screen and (min-width: 768px)
+{
+  .paragraf
+  {
+    display: flex;
+  }
+  p
+   { width: 700px;
+    text-indent:30px;}
+}
