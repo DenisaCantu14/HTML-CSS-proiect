@@ -78,12 +78,12 @@ border-radius: 50%;
 }
 
 @font-face {
- font-family: myFirstFont;
+ font-family: Rockness;
  src:url(../FONT/Rockness.ttf);
 }
 h1
 { text-align: center;
- font-family: myFirstFont; 
+ font-family: Rockness; 
  font-size: 9vh;
  color:black;
 
